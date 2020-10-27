@@ -25,3 +25,5 @@ function funzione(numb1, numb2){
 
 var somma = funzione(numeroUte, numeroPc);
 console.log(somma);
+
+document.getElementById('stampa').innerHTML = somma;

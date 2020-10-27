@@ -10,8 +10,13 @@ console.log(funzparola(parolaUte));
 
 function funzparola(parola) {
   if (parola == parola.split('').reverse().join('')){
-    return "è palindroma";
+    return " è palindroma";
   }else{
-    return "non è palindroma";
+    return " non è palindroma";
   }
 }
+
+
+// OUTPUT
+var risultato = funzparola(parolaUte);
+document.getElementById('palindroma').innerHTML = parolaUte +  risultato;
